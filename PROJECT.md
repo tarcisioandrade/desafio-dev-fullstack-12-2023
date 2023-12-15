@@ -3,7 +3,7 @@
 
 Clone o projeto no diretório que desejar executando o comando abaixo:
 
-    git clone https://github.com/tarcisioandrade/newsun-challenge.git
+    git clone https://github.com/tarcisioandrade/desafio-dev-fullstack-12-2023.git
 
 ## Backend
 
