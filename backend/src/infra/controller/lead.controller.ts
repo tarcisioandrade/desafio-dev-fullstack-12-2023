@@ -41,7 +41,7 @@ export async function createLead(req: Request, res: Response) {
     const newLead = await createLeadUseCase.execute(leadInput);
 
     if (newLead.isLeft()) {
-      return clientError(res, { lead: newLead.value.message });
+      return clientError(res, { message: newLead.value.message });
     }
 
     created(res, { lead: newLead.value.toObject() });
